@@ -67,12 +67,22 @@ Start a new `claude` session after installing — skills load automatically.
 
 ## Examples
 
+See the [`examples/`](examples/) directory for real output from each skill:
+
+| File | Skill | What it shows |
+|------|-------|--------------|
+| [thesis-MSFT.md](examples/thesis-MSFT.md) | `stock-thesis` | Full hedge fund PM thesis on Microsoft |
+| [thesis-AMD.md](examples/thesis-AMD.md) | `stock-thesis` | Full thesis on AMD — CPU vs GPU split conviction |
+| [screen-NVDA.md](examples/screen-NVDA.md) | `stock-screen` | 1-page NVIDIA overview with moat scorecard |
+| [red-flags-UBER.md](examples/red-flags-UBER.md) | `stock-red-flags` | GREEN/YELLOW/RED checklist for Uber |
+| [earnings-AAPL-Q2-2025.md](examples/earnings-AAPL-Q2-2025.md) | `stock-earnings` | Full Apple Q2 2025 earnings review |
+
 ```
 /stock-thesis MSFT
-/stock-earnings NVDA Q1
-/stock-screen DDOG
+/stock-earnings AAPL Q2
+/stock-screen NVDA
 /stock-red-flags UBER
-/stock-moat AAPL
+/stock-moat GOOGL
 /stock-portfolio MSFT GOOGL AMZN META NVDA
 ```
 
