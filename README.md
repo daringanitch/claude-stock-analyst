@@ -76,6 +76,7 @@ See the [`examples/`](examples/) directory for real output from each skill:
 | [screen-NVDA.md](examples/screen-NVDA.md) | `stock-screen` | 1-page NVIDIA overview with moat scorecard |
 | [red-flags-UBER.md](examples/red-flags-UBER.md) | `stock-red-flags` | GREEN/YELLOW/RED checklist for Uber |
 | [earnings-AAPL-Q2-2025.md](examples/earnings-AAPL-Q2-2025.md) | `stock-earnings` | Full Apple Q2 2025 earnings review |
+| [portfolio-risk-11positions.md](examples/portfolio-risk-11positions.md) | `stock-portfolio` | Portfolio risk heat map across 11 positions |
 
 ```
 /stock-thesis MSFT
