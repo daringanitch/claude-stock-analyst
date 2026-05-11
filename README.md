@@ -12,7 +12,7 @@ bash install.sh
 
 Start a new `claude` session after installing — skills load automatically.
 
-## The 13 Skills
+## The 17 Skills
 
 ### Master entry point
 | Skill | What it does |
@@ -95,6 +95,7 @@ See the [`examples/`](examples/) directory for real output from each skill:
 | [red-flags-UBER.md](examples/red-flags-UBER.md) | `stock-red-flags` | GREEN/YELLOW/RED checklist for Uber |
 | [earnings-AAPL-Q2-2025.md](examples/earnings-AAPL-Q2-2025.md) | `stock-earnings` | Full Apple Q2 2025 earnings review |
 | [portfolio-risk-11positions.md](examples/portfolio-risk-11positions.md) | `stock-portfolio` | Portfolio risk heat map across 11 positions |
+| [etf-screen-VOO.md](examples/etf-screen-VOO.md) | `etf-screen` | VOO holdings breakdown, concentration flag, factor tilt |
 
 ```
 /stock-thesis MSFT
