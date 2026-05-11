@@ -1,6 +1,6 @@
 # claude-stock-analyst
 
-13 Claude Code skills that turn Claude into a Bloomberg-grade equity analyst. One install script. Works in every Claude Code session.
+17 Claude Code skills that turn Claude into a Bloomberg-grade equity analyst. Covers single stocks and ETFs. One install script. Works in every Claude Code session.
 
 ## Install
 
@@ -47,6 +47,14 @@ Start a new `claude` session after installing — skills load automatically.
 | `/stock-monitor [TICKER @ PRICE]` | Monitoring framework for positions you own — KPIs, sell triggers, add triggers, next catalyst |
 | `/stock-portfolio [tickers]` | Portfolio risk heat map — concentration, factor exposure, correlation, macro sensitivity, blind spots |
 
+### ETF Analysis
+| Skill | What it does |
+|-------|-------------|
+| `/etf-screen [TICKER]` | 1-page ETF overview — holdings, concentration, factor tilt, cost, and a plain-English verdict |
+| `/etf-compare [TICKER] [TICKER]` | Side-by-side ETF comparison — overlap analysis, methodology differences, clear pick-one recommendation |
+| `/etf-portfolio [tickers]` | ETF portfolio analysis — unpack hidden stock concentration, redundant overlap, combined factor exposure |
+| `/etf-sector [SECTOR]` | Best ETF to express a sector view — ranked options, methodology differences, what to avoid and why |
+
 ## Research Workflows
 
 **Full due diligence on a new stock:**
@@ -63,6 +71,16 @@ Start a new `claude` session after installing — skills load automatically.
 **Quick 5-minute idea filter:**
 ```
 /stock-screen → /stock-red-flags → /stock-thesis (only if both pass)
+```
+
+**ETF due diligence:**
+```
+/etf-screen → /etf-compare (vs alternatives) → /etf-portfolio (if adding to existing holdings)
+```
+
+**Finding the right ETF for a sector bet:**
+```
+/etf-sector [SECTOR] → /etf-screen [chosen ticker] → /etf-portfolio (check overlap with existing)
 ```
 
 ## Examples

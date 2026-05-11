@@ -1,6 +1,6 @@
 #!/bin/bash
 # claude-stock-analyst — install script
-# Copies all 13 skills to ~/.claude/skills/ so they're available in every Claude Code session.
+# Copies all 17 skills to ~/.claude/skills/ so they're available in every Claude Code session.
 #
 # Usage:
 #   git clone https://github.com/daringanitch/claude-stock-analyst
