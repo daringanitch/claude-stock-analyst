@@ -17,7 +17,7 @@ Start a new `claude` session after installing — skills load automatically.
 ### Master entry point
 | Skill | What it does |
 |-------|-------------|
-| `/stock-analyst` | Explains the full system, dispatch table, research workflows, analyst standards |
+| `/stock-analyst` | Active dispatcher — selects and runs the right skill automatically; invoke directly to see available skills, workflows, and analyst standards |
 
 ### Research & Screening
 | Skill | What it does |
@@ -107,6 +107,10 @@ See the [`examples/`](examples/) directory for real output from each skill:
 ```
 
 Skills also trigger automatically — say "run earnings on Datadog" and Claude invokes `/stock-earnings` without the slash.
+
+## Knowledge cutoff
+
+Skills are powered by Claude's training data (through August 2025). Any output that depends on recent prices, earnings, or news will be flagged explicitly — Claude will tell you when data may be stale. For live data, cross-reference with your broker or a financial data provider.
 
 ## Requirements
 
